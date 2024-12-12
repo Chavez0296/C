@@ -12,7 +12,7 @@ int main(void){
 
     int *maxInt = arr; 
     int *minInt = arr;
-    void findMaxMin(int *minInt, int *maxInt, int arr);
+
     for(int i = 1; i < n; i++){
         if(*maxInt < arr[i]){
             maxInt = &arr[i];
@@ -20,8 +20,8 @@ int main(void){
         if(*minInt > arr[i]){
             minInt = &arr[i];
         }
+    
     }
-   
     printf("Max: %d\n", *maxInt);
     printf("Min: %d", *minInt);
     

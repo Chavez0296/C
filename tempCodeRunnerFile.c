@@ -1,1 +1,1 @@
-struct student *studentPtr
+n
